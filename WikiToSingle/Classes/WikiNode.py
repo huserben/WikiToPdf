@@ -7,7 +7,7 @@
 #------------------------------------------------------------------------------
 import os
 import re
-import urllib
+import urllib.parse
 
 def escapeNodeName(title):	
 	title = urllib.parse.unquote(title)
